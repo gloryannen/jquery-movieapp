@@ -1,0 +1,117 @@
+body{
+  background-color: rgb(27, 27, 27);
+  color: rgb(233, 226, 217);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+label{
+  vertical-align: middle;
+}
+
+input{
+  text-align: center;
+  vertical-align:middle;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+table, tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 1px 1px 5px 5px;
+  border-spacing: 0px;
+}
+
+thead{
+  height:3rem;
+}
+
+tbody{
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+td{
+  padding: 10px;
+}
+
+tbody>tr:hover {
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.4);
+}
+
+#movie-list-body{
+  width: fit-content;
+}
+
+.movie-title{
+  max-width: 350px;
+  overflow-wrap: break-word;
+}
+
+#movie-remove{
+  text-align: right;
+  width: 10%;
+}
+
+#submit-btn{
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: rgb(90, 90, 90);
+  background-color: rgb(115, 250, 115);
+  cursor: pointer;
+}
+
+#submit-btn:hover{
+  background: rgb(209, 151, 6);
+}
+
+.del-btn{
+  font-weight: bold;
+  margin-left: 25%;
+  padding: 5px 10px;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: rgb(32, 32, 32);
+  background-color: rgb(95, 0, 0);
+  cursor: pointer;
+  color: bisque;
+
+}
+
+.movie-list{
+  display: inline-table;
+  width: 100%;
+  text-align: left;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: rgb(209, 152, 6);
+  color: black;
+  font-size: 20px;
+}
+
+.gold-accent{
+  color: rgb(209, 151, 6);
+}
+
+.center{
+  text-align: center;
+}
+
+.movie-form-container{
+  justify-content: center;
+  text-align: center;
+}
+
+.movie-form-container>div{
+  font-weight: bold;
+  font-size: 25px;
+  margin: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
